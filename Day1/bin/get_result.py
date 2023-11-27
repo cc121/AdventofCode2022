@@ -3,7 +3,7 @@ import os
 
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-from MostCalories import get_most_calories
+from MostCalories import get_most_calories, get_top_three_calories
 
 input_list = '''9195
 5496
@@ -2277,4 +2277,5 @@ input_list = '''9195
 2464
 '''
 
-print(f"My result is: {get_most_calories(input_list)}")
+print(f"My result for part 1 is: {get_most_calories(input_list)}")
+print(f"My result for part 2 is: {get_top_three_calories(input_list)}")
