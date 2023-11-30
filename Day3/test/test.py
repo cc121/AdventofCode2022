@@ -4,7 +4,7 @@ import os
 
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-from main import part2
+from main import part1, part2
 
 
 class MyTestCase(unittest.TestCase):
